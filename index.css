@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: bisque;
+}
+
+.container2{
+    background-color: black;
+    height: 580px;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    border-radius: 12px;
+    
+}
+#img{
+    height: 500px;
+    width: 100%;
+    
+
+}
+
+.leftcontainer{
+    height: 500px;
+    width: 50%;
+    
+    margin: 30px;
+    color: white;
+    border-radius: 10px;
+}
+.rightcontainer{
+    
+    height: 500px;
+    width: 50%;
+    overflow: hidden;
+    margin: 30px;
+}
+
+.songbanner{
+    background-color: black;
+    margin: 10px;
+    border: 2px solid white; 
+    border-radius: 10px;
+    height: 45px;
+}
+
+.bottom{
+    background-color: black;
+    height: 100px;
+    position: sticky;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+     flex-direction: column; 
+    color: white;
+}
+#progressbar{
+width: 80%;
+cursor: pointer;
+}
+
+.icons{
+    margin-top: 10px;
+  
+}
+.icons i{
+    cursor: pointer;
+}
+.songbanner{
+display: flex;
+align-items: center;
+height: 50px;
+justify-content: space-around;
+}
+.songbanner img{
+
+    height: 35px;
+}
+
+.songbanner i {
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 150px;
+    top: 40px;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
